@@ -1,0 +1,969 @@
+[09Dec2025 18:52:11.613] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[09Dec2025 18:52:11.616] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.9 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[09Dec2025 18:52:13.598] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[09Dec2025 18:52:13.652] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/testing23/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[09Dec2025 18:52:14.076] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/testing23/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[09Dec2025 18:52:14.078] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/testing23/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[09Dec2025 18:52:14.079] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/testing23/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[09Dec2025 18:52:14.080] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/testing23/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[09Dec2025 18:52:14.545] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[09Dec2025 18:52:14.547] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: expandability. Using Mod File: /workspaces/testing23/servidor_minecraft/mods/expandability-9.0.4.jar
+[09Dec2025 18:52:14.547] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 26 dependencies adding them to mods collection
+[09Dec2025 18:52:17.808] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[09Dec2025 18:52:17.892] [main/ERROR] [mixin/]: Mixin config scaling_mobs.mixin.json does not specify "minVersion" property
+[09Dec2025 18:52:18.030] [main/ERROR] [mixin/]: Mixin config yacl.mixins.json does not specify "minVersion" property
+[09Dec2025 18:52:18.053] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[09Dec2025 18:52:18.204] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.24.3+mc1.20.1: 96 options available, 0 override(s) found
+[09Dec2025 18:52:18.205] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[09Dec2025 18:52:18.257] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[09Dec2025 18:52:18.365] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 198 options available, 0 override(s) found
+[09Dec2025 18:52:18.375] [main/WARN] [mixin/]: Reference map 'handcrafted-forge-1.20.1-forge-refmap.json' for handcrafted.mixins.json could not be read. If this is a development environment you can ignore this message
+[09Dec2025 18:52:18.399] [main/WARN] [mixin/]: Reference map 'pandalib-common-common-refmap.json' for pandalib-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[09Dec2025 18:52:18.406] [main/WARN] [mixin/]: Reference map 'smallships-forge-refmap.json' for smallships.mixins.json could not be read. If this is a development environment you can ignore this message
+[09Dec2025 18:52:18.435] [main/WARN] [mixin/]: Reference map 'EpheroLib-refmap.json' for epherolib.mixins.json could not be read. If this is a development environment you can ignore this message
+[09Dec2025 18:52:18.446] [main/WARN] [mixin/]: Reference map 'puzzlesaccessapi.common.refmap.json' for puzzlesaccessapi.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[09Dec2025 18:52:18.454] [main/WARN] [mixin/]: Reference map 'simplyswords-forge-refmap.json' for simplyswords.mixins.json could not be read. If this is a development environment you can ignore this message
+[09Dec2025 18:52:18.556] [main/INFO] [Puzzles Lib/]: Loading 153 mods:
+	- alexsmobs 1.22.9
+	- almanac 1.0.2
+	- appleskin 2.5.1+mc1.20.1
+	- aquaculture 2.5.5
+	- aquaculturedelight 1.1.1
+	- architectury 9.2.14
+	- armoroftheages 1.5.6
+	- artifacts 9.5.16
+	- awesomedungeon 3.2.0
+	- awesomedungeonend 3.1.1
+	- awesomedungeonocean 3.3.0
+	- backpacked 2.2.5
+	- balm 7.3.33
+		\-- kuma_api 20.1.10
+	- betteradvancements 0.4.2.25
+	- bettercombat 1.8.6+1.20.1
+	- betterdeserttemples 1.20-Forge-3.0.3
+	- betterdungeons 1.20-Forge-4.0.4
+	- betterjungletemples 1.20-Forge-2.0.5
+	- bettervillage 3.3.1
+	- biomemusic 1.20.1-3.5
+	- bosses_of_mass_destruction 1.1.1
+	- bountiful 6.0.4+1.20.1
+	- brutalbosses 1.20.1-8.2
+	- caelus 3.2.0+1.20.1
+	- carryon 2.1.2.7
+		\-- mixinextras 0.2.0-beta.6
+	- castle_dungeons 4.0.0
+	- cataclysm 3.10
+	- cerbons_api 1.0.0
+	- chefsdelight 1.0.3-forge-1.20.1
+	- chunky 1.3.146
+	- citadel 2.6.2
+	- cloth_config 11.1.136
+	- collective 8.3
+	- combatroll 1.3.3+1.20.1
+	- comforts 6.4.0+1.20.1
+	- configured 2.2.3
+	- controlling 12.0.2
+	- cosmeticarmorreworked 1.20.1-v1a
+	- cristellib 1.1.6
+	- croptopia 3.0.4
+	- cupboard 1.20.1-2.7
+	- curios 5.14.1+1.20.1
+	- dungeoncrawl 2.3.15
+	- dungeons_enhanced 5.4.2
+	- dungeonsmod 1.20.1-1.4.100-alpha.1
+	- embeddium 0.3.31+mc1.20.1
+		\-- rubidium 0.7.1
+	- emi_enchanting 0.1.2+1.20.1+forge
+	- emiffect 1.1.2+mc1.20.1
+	- emitrades 1.2.1+mc1.20.1
+	- entityculling 1.8.2
+		|-- transition 1.0.3
+		\-- trender 1.0.5
+	- epherolib 0.1.2
+	- expandability 9.0.4
+	- explorerscompass 1.20.1-1.3.3-forge
+	- extrabounties 1.3.7
+	- fallingtrees 0.13.2
+	- fancymenu 3.6.4
+	- farmersdelight 1.20.1-1.2.8
+	- fastfurnace 8.0.2
+	- ferritecore 6.0.1
+	- flib 0.0.15
+	- forge 47.3.7
+	- framework 0.7.15
+	- ftbessentials 2001.2.3
+	- ftblibrary 2001.2.10
+	- ftbquests 2001.4.13
+	- ftbteams 2001.3.1
+	- ftbultimine 2001.1.6
+	- fzzy_config 0.7.1+1.20.1+forge
+	- geckolib 4.7.3
+	- globalpacks 19.3.5
+	- goblintraders 1.9.3
+	- gravestone 1.20.1-1.0.32
+	- guardvillagers 1.20.1-1.6.11
+	- handcrafted 3.0.6
+	- heartbalance 1.0.3
+	- highlighter 1.1.9
+	- iceandfire 2.1.13-1.20.1
+	- iceberg 1.1.25
+	- ironchest 1.20.1-14.4.4
+	- ironfurnaces 4.1.6
+	- item_obliterator 2.3.0
+	- jade 11.13.1+forge
+	- jrftl 1.6.0
+	- kambrik 6.1.1+1.20.1
+	- konkrete 1.8.0
+	- kotlinforforge 4.11.0
+	- kubejs 2001.6.5-build.16
+	- letmedespawn 1.5.0
+	- libraryferret 4.0.0
+	- lionfishapi 2.4-Fix
+	- lockon 1.20.1-1
+	- lootintegration_townsandtowers 1
+	- lootintegrations 1.20.1-4.7
+	- lootintegrations_dungeoncrawl 1
+	- lootr 0.7.35.91
+	- masiks_puzzle_dungeon 1.2.0
+	- mastersword 1.20.1-2.3.1
+	- minecraft 1.20.1
+	- mobz 4.2.1
+	- modernfix 5.24.3+mc1.20.1
+	- moonlight 1.20-2.14.14
+	- moredelight 25.07.28-1.20-forge
+	- mousetweaks 2.25.1
+	- mowziesmobs 1.7.3
+	- mr_dungeons_andtaverns 3.0.3.f
+	- mutantmonsters 8.0.7
+	- naturescompass 1.20.1-1.11.2-forge
+	- necronomicon 1.6.0
+	- octolib 0.5.0.1
+	- overflowingbars 8.0.1
+	- pandalib 0.5.2
+	- paraglider 20.1.3
+	- patchouli 1.20.1-84.1-FORGE
+	- placebo 8.6.3
+	- playeranimator 1.0.2-rc1+1.20
+	- polymorph 0.49.10+1.20.1
+		\-- spectrelib 0.13.17+1.20.1
+	- prism 1.0.5
+	- puzzleslib 8.1.32
+		\-- puzzlesaccessapi 20.1.1
+	- regions_unexplored 0.5.6
+	- repurposed_structures 7.1.19+1.20.1-forge
+	- resourcefullib 2.1.29
+	- rhino 2001.2.3-build.10
+	- scalingmobs 2.3
+	- searchables 1.0.3
+	- shouldersurfing 1.20.1-4.14.1
+	- simplyswords 1.56.0-1.20.1
+	- smallships 2.0.0-b1.4
+	- smartbrainlib 1.15
+	- spark 1.10.53
+	- stalwart_dungeons 1.2.8
+	- stardew_fishing 2.3
+	- structure_gel 2.16.2
+	- structureessentials 1.20.1-4.8
+	- terrablender 3.0.1.10
+	- toms_storage 1.7.1
+	- toolbelt 1.20.02
+	- tyzs_skills 4.3
+	- ultris_mr 5.6.9c
+	- underground_villages 2.1.0
+	- visualworkbench 8.0.1
+	- waystones 14.1.16
+	- xaerominimap 25.2.10
+	- xaeroworldmap 1.39.12
+	- xercamusic 1.20.1-1.0.2
+	- yet_another_config_lib_v3 3.6.6+1.20.1-forge
+	- yungsapi 1.20-Forge-4.0.6
+	- zeldamod 1.4.2
+[09Dec2025 18:52:18.575] [main/WARN] [mixin/]: Reference map 'cristellib-forge-refmap.json' for cristellib.mixins.json could not be read. If this is a development environment you can ignore this message
+[09Dec2025 18:52:18.939] [main/INFO] [com.cupboard.Cupboard/]: Loaded config for: structureessentials.json
+[09Dec2025 18:52:19.040] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[09Dec2025 18:52:19.056] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[09Dec2025 18:52:19.416] [main/WARN] [mixin/]: Error loading class: com/scouter/netherdepthsupgrade/entity/entities/LavaFishingBobberEntity (java.lang.ClassNotFoundException: com.scouter.netherdepthsupgrade.entity.entities.LavaFishingBobberEntity)
+[09Dec2025 18:52:19.770] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER
+[09Dec2025 18:52:19.772] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/AbstractClientPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER)
+[09Dec2025 18:52:19.772] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.AbstractClientPlayer was not found zeldamod.mixins.json:MixinCapeRenderer
+[09Dec2025 18:52:19.779] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/MouseHandler for invalid dist DEDICATED_SERVER
+[09Dec2025 18:52:19.780] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/MouseHandler (java.lang.RuntimeException: Attempted to load class net/minecraft/client/MouseHandler for invalid dist DEDICATED_SERVER)
+[09Dec2025 18:52:19.780] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.MouseHandler was not found zeldamod.mixins.json:MixinMouse
+[09Dec2025 18:52:19.781] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/model/PlayerModel (java.lang.ClassNotFoundException: net.minecraft.client.model.PlayerModel)
+[09Dec2025 18:52:19.781] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.model.PlayerModel was not found zeldamod.mixins.json:MixinPlayerModel
+[09Dec2025 18:52:20.692] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[09Dec2025 18:52:21.323] [main/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_216202_ in modernfix-forge.mixins.json:perf.tag_id_caching.TagOrElementLocationMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[09Dec2025 18:52:21.555] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (16.16 s after launch)
+[09Dec2025 18:52:21.699] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[09Dec2025 18:52:21.700] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[09Dec2025 18:52:23.047] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[09Dec2025 18:52:23.048] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[09Dec2025 18:52:23.589] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 2030 milliseconds
+[09Dec2025 18:52:24.779] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[09Dec2025 18:52:24.780] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[09Dec2025 18:52:25.770] [main/WARN] [mixin/]: @Final field f_26027_:Lnet/minecraft/world/entity/ai/targeting/TargetingConditions; in guardvillagers.mixins.json:DefendVillageGoalGolemMixin should be final
+[09Dec2025 18:52:27.673] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/testing23/servidor_minecraft/config/guardvillagers-common.toml is not correct. Correcting
+[09Dec2025 18:52:27.844] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Successfully initialized!
+[09Dec2025 18:52:27.845] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side libs ready to use!
+[09Dec2025 18:52:28.112] [modloading-worker-0/INFO] [STDOUT/]: [io.ejekta.kambrik.KambrikModForge:<clinit>:22]: Service loaders found: [io.ejekta.kambrik.bridge.KambrikSharedApiForge@5ca59820]
+[09Dec2025 18:52:28.138] [modloading-worker-0/INFO] [ironfurnaces.IronFurnaces/]: Initializing Update Checker...
+[09Dec2025 18:52:28.143] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces/]: Starting Update Check...
+[09Dec2025 18:52:28.326] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 8.3.
+[09Dec2025 18:52:28.407] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[09Dec2025 18:52:28.410] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbultimine:key_pressed
+[09Dec2025 18:52:28.410] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbultimine:mode_changed
+[09Dec2025 18:52:28.411] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbultimine:sync_config_to_server
+[09Dec2025 18:52:28.449] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[09Dec2025 18:52:29.025] [modloading-worker-0/INFO] [fallingtrees | Config/]: Successfully loaded config 'fallingtrees_common'
+[09Dec2025 18:52:29.031] [modloading-worker-0/INFO] [fallingtrees | Config/]: Successfully saved config 'fallingtrees_common'
+[09Dec2025 18:52:29.089] [modloading-worker-0/INFO] [KubeJS/]: Loaded common.properties
+[09Dec2025 18:52:29.096] [modloading-worker-0/INFO] [KubeJS/]: Loaded dev.properties
+[09Dec2025 18:52:29.137] [modloading-worker-0/INFO] [KubeJS/]: Looking for KubeJS plugins...
+[09Dec2025 18:52:29.157] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source kubejs
+[09Dec2025 18:52:29.173] [modloading-worker-0/WARN] [KubeJS/]: Plugin dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin does not load on server side, skipping
+[09Dec2025 18:52:29.176] [modloading-worker-0/WARN] [KubeJS/]: Plugin dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration does not have required mod gamestages loaded, skipping
+[09Dec2025 18:52:29.183] [modloading-worker-0/INFO] [KubeJS/]: Done in 45.26 ms
+[09Dec2025 18:52:29.388] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftblibrary:edit_nbt_response
+[09Dec2025 18:52:29.443] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:open_gui
+[09Dec2025 18:52:29.446] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:update_settings
+[09Dec2025 18:52:29.448] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:send_message
+[09Dec2025 18:52:29.455] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:create_party
+[09Dec2025 18:52:29.460] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:player_gui_operation
+[09Dec2025 18:52:29.491] [modloading-worker-0/INFO] [Rhino Script Remapper/]: Loading Rhino Minecraft remapper...
+[09Dec2025 18:52:29.492] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mutantmonsters:main
+[09Dec2025 18:52:29.495] [modloading-worker-0/INFO] [dev.latvian.mods.rhino.mod.util.RhinoProperties/]: Rhino properties loaded.
+[09Dec2025 18:52:29.500] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces/]: Update Check done!
+[09Dec2025 18:52:29.501] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces/]: Iron Furnaces is up to date!
+[09Dec2025 18:52:29.504] [modloading-worker-0/INFO] [Rhino Script Remapper/]: Loading mappings for 1.20.1
+[09Dec2025 18:52:29.511] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for visualworkbench:main
+[09Dec2025 18:52:29.530] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
+[09Dec2025 18:52:29.553] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
+[09Dec2025 18:52:29.675] [modloading-worker-0/INFO] [Dungeon Crawl/]: Here we go! Launching Dungeon Crawl 2.3.15...
+[09Dec2025 18:52:29.706] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[09Dec2025 18:52:29.706] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[09Dec2025 18:52:29.709] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[09Dec2025 18:52:29.712] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[09Dec2025 18:52:29.717] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[09Dec2025 18:52:29.721] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[09Dec2025 18:52:29.725] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[09Dec2025 18:52:29.844] [modloading-worker-0/INFO] [Rhino Script Remapper/]: Done in 0.353 s
+[09Dec2025 18:52:29.865] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[09Dec2025 18:52:29.866] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[09Dec2025 18:52:30.238] [modloading-worker-0/INFO] [STDOUT/]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Disabled because not running on the client.
+[09Dec2025 18:52:30.361] [modloading-worker-0/INFO] [KubeJS Startup/]: example.js#5: Hello, World! (Loaded startup scripts)
+[09Dec2025 18:52:30.364] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:example.js in 0.053 s
+[09Dec2025 18:52:30.374] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded 1/1 KubeJS startup scripts in 0.522 s with 0 errors and 0 warnings
+[09Dec2025 18:52:30.383] [modloading-worker-0/INFO] [necronomicon/]: Necronomicon Initialized
+[09Dec2025 18:52:30.395] [modloading-worker-0/INFO] [STDOUT/]: [net.sweenus.simplyswords.SimplySwords:init:134]: /workspaces/testing23/servidor_minecraft/config
+[09Dec2025 18:52:30.399] [modloading-worker-0/INFO] [necronomicon/]: File exists, reading config for elocindev.necronomicon.NecronomiconConfig.
+[09Dec2025 18:52:30.402] [modloading-worker-0/INFO] [necronomicon/]: Config for elocindev.necronomicon.NecronomiconConfig read successfully.
+[09Dec2025 18:52:30.407] [modloading-worker-0/INFO] [necronomicon/]: there is a brick about to fall through your roof at terminal velocity
+[09Dec2025 18:52:30.421] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[09Dec2025 18:52:30.437] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id kubejs:send_data_from_client
+[09Dec2025 18:52:30.443] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id kubejs:first_click
+[09Dec2025 18:52:30.510] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:submit_task
+[09Dec2025 18:52:30.515] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:claim_reward
+[09Dec2025 18:52:30.516] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:get_emergency_items
+[09Dec2025 18:52:30.517] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:claim_all_rewards
+[09Dec2025 18:52:30.521] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:claim_choice_reward
+[09Dec2025 18:52:30.523] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:toggle_pinned
+[09Dec2025 18:52:30.525] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:toggle_chapter_pinned
+[09Dec2025 18:52:30.528] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:toggle_editing_mode
+[09Dec2025 18:52:30.530] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:force_save
+[09Dec2025 18:52:30.532] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:set_custom_image
+[09Dec2025 18:52:30.538] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:task_screen_config_resp
+[09Dec2025 18:52:30.542] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:change_progress
+[09Dec2025 18:52:30.543] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:create_object
+[09Dec2025 18:52:30.547] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:create_task_at
+[09Dec2025 18:52:30.550] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:delete_object
+[09Dec2025 18:52:30.552] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:edit_object
+[09Dec2025 18:52:30.553] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:move_chapter
+[09Dec2025 18:52:30.555] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:move_quest
+[09Dec2025 18:52:30.557] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:change_chapter_group
+[09Dec2025 18:52:30.559] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:move_chapter_group
+[09Dec2025 18:52:30.562] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:copy_quest
+[09Dec2025 18:52:30.566] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:copy_chapter_image
+[09Dec2025 18:52:30.567] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:sync_structures_request
+[09Dec2025 18:52:30.568] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:request_team_data
+[09Dec2025 18:52:30.738] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Deserializing AOTAConfig from '/workspaces/testing23/servidor_minecraft/config/config/armoroftheages.json'
+[09Dec2025 18:52:30.757] [modloading-worker-0/INFO] [de.keksuccino.fancymenu.FancyMenu/]: [FANCYMENU] Loading v3.6.4 in server-side mode on FORGE!
+[09Dec2025 18:52:30.780] [modloading-worker-0/INFO] [com.epherical.epherolib.config.CommonConfig/]: Creating default config file: croptopia_v3.conf
+[09Dec2025 18:52:30.801] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Deserializing YACLConfig from '/workspaces/testing23/servidor_minecraft/config/yacl.json5'
+[09Dec2025 18:52:30.858] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
+[09Dec2025 18:52:30.874] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[09Dec2025 18:52:30.886] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for overflowingbars:main
+[09Dec2025 18:52:31.044] [modloading-worker-0/INFO] [ModernFix/]: Bypassed Mojang DFU
+[09Dec2025 18:52:31.044] [modloading-worker-0/INFO] [ModernFix/]: Instantiating Mojang DFU
+[09Dec2025 18:52:34.981] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / artifacts:mimic] was not realized!
+[09Dec2025 18:52:34.981] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / artifacts:mimic] was not realized!
+[09Dec2025 18:52:35.156] [main/INFO] [Moonlight/]: Initialized block sets in 19ms
+[09Dec2025 18:52:35.502] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:loot_table_alias
+[09Dec2025 18:52:35.514] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:data_handler_type
+[09Dec2025 18:52:35.515] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:dynamic_spawner
+[09Dec2025 18:52:35.517] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:jigsaw_type
+[09Dec2025 18:52:35.640] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.animal.Bee from class net.mobz.entity.Wasp
+[09Dec2025 18:52:35.653] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.monster.Monster from class com.kamth.zeldamod.entity.mobs.hostile.deku.DekuScrubEntity
+[09Dec2025 18:52:35.654] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.monster.Monster from class com.kamth.zeldamod.entity.mobs.hostile.deku.DekuMadScrubEntity
+[09Dec2025 18:52:35.654] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.monster.Slime from class com.kamth.zeldamod.entity.mobs.hostile.chus.ChuchuEntity
+[09Dec2025 18:52:35.654] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.monster.Monster from class com.kamth.zeldamod.entity.mobs.SkulltulaEntity
+[09Dec2025 18:52:35.924] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/testing23/servidor_minecraft/config/guardvillagers-common.toml is not correct. Correcting
+[09Dec2025 18:52:36.071] [main/INFO] [com.tom.storagemod.StorageMod/]: Loaded Tom's Simple Storage config file toms_storage-common.toml
+[09Dec2025 18:52:36.086] [main/INFO] [Puzzles Lib/]: Loading common config for mutantmonsters
+[09Dec2025 18:52:36.282] [modloading-worker-0/INFO] [com.structureessentials.StructureEssentials/]: structureessentials mod initialized
+[09Dec2025 18:52:36.308] [modloading-worker-0/INFO] [com.lootintegrations.LootintegrationsMod/]: lootintegrations mod initialized
+[09Dec2025 18:52:36.310] [modloading-worker-0/INFO] [necronomicon/]: File exists, reading config for elocindev.item_obliterator.forge.config.ConfigEntries.
+[09Dec2025 18:52:36.310] [modloading-worker-0/INFO] [necronomicon/]: Config for elocindev.item_obliterator.forge.config.ConfigEntries read successfully.
+[09Dec2025 18:52:36.313] [modloading-worker-0/INFO] [elocindev.item_obliterator.forge.ItemObliterator/]: Loaded Item Obliterator Config
+[09Dec2025 18:52:36.369] [modloading-worker-0/INFO] [com.tom.storagemod.StorageMod/]: Tom's Storage Setup starting
+[09Dec2025 18:52:36.371] [modloading-worker-0/INFO] [com.tom.storagemod.StorageMod/]: Initilaized Network Handler
+[09Dec2025 18:52:36.394] [modloading-worker-0/INFO] [Dungeon Crawl/]: Common Setup
+[09Dec2025 18:52:36.414] [modloading-worker-0/INFO] [com.brutalbosses.BrutalBosses/]: brutalbosses mod initialized
+[09Dec2025 18:52:36.430] [modloading-worker-0/INFO] [com.biomemusic.BiomeMusic/]: biomemusic mod initialized
+[09Dec2025 18:52:36.527] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [controlling] Starting version check at https://updates.blamejared.com/get?n=controlling&gv=1.20.1
+[09Dec2025 18:52:36.637] [main/INFO] [Moonlight/]: Initialized color sets in 33ms
+[09Dec2025 18:52:36.656] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[09Dec2025 18:52:36.656] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[09Dec2025 18:52:36.657] [main/INFO] [terrablender/]: Registered region regions_unexplored:primary to index 1 for type OVERWORLD
+[09Dec2025 18:52:36.657] [main/INFO] [terrablender/]: Registered region regions_unexplored:secondary to index 2 for type OVERWORLD
+[09Dec2025 18:52:36.658] [main/INFO] [terrablender/]: Registered region regions_unexplored:nether to index 1 for type NETHER
+[09Dec2025 18:52:36.789] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
+[09Dec2025 18:52:36.790] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[09Dec2025 18:52:36.814] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
+[09Dec2025 18:52:36.814] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[09Dec2025 18:52:37.149] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [controlling] Found status: BETA Current: 12.0.2 Target: 12.0.2
+[09Dec2025 18:52:37.149] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [prism] Starting version check at https://mc-update-check.anthonyhilyard.com/638111
+[09Dec2025 18:52:37.356] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.balm.forge.compat.hudinfo.ForgeJadeModCompat
+[09Dec2025 18:52:37.367] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.waystones.compat.JadeIntegration
+[09Dec2025 18:52:37.368] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[09Dec2025 18:52:37.384] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[09Dec2025 18:52:37.391] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[09Dec2025 18:52:37.393] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at com.github.exopandora.shouldersurfing.integration.ShoulderSurfingJadePlugin
+[09Dec2025 18:52:37.394] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.gravestone.integration.waila.PluginGraveStone
+[09Dec2025 18:52:37.397] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [prism] Found status: UP_TO_DATE Current: 1.0.5 Target: null
+[09Dec2025 18:52:37.399] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [guardvillagers] Starting version check at https://raw.githubusercontent.com/seymourimadeit/guardvillagers/master/update.json
+[09Dec2025 18:52:37.434] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [guardvillagers] Found status: BETA Current: 1.20.1-1.6.11 Target: 1.20-1.6.5
+[09Dec2025 18:52:37.434] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Starting version check at http://changelogs.moddinglegacy.com/structure-gel.json
+[09Dec2025 18:52:37.437] [main/INFO] [citadel/]: adding citadel surface rules via terrablender...
+[09Dec2025 18:52:37.438] [main/INFO] [citadel/]: Added 0 vanilla biome surface rule types via terrablender
+[09Dec2025 18:52:37.439] [main/INFO] [citadel/]: Added 0 modded biome surface rule types via terrablender
+[09Dec2025 18:52:37.612] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Found status: BETA Current: 2.16.2 Target: null
+[09Dec2025 18:52:37.613] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dungeons_enhanced] Starting version check at https://raw.githubusercontent.com/Ametrin-Studios/DungeonsEnhanced/refs/heads/master/update.json
+[09Dec2025 18:52:37.628] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dungeons_enhanced] Found status: OUTDATED Current: 5.4.2 Target: 5.4.3
+[09Dec2025 18:52:37.639] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [highlighter] Starting version check at https://mc-update-check.anthonyhilyard.com/521590
+[09Dec2025 18:52:37.665] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:37.665] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [highlighter] Found status: UP_TO_DATE Current: 1.1.9 Target: null
+[09Dec2025 18:52:37.665] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [heartbalance] Starting version check at https://raw.githubusercontent.com/Lothrazar/HeartBalance/trunk/1.20.1/update.json
+[09Dec2025 18:52:37.666] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:37.668] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:37.669] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:37.670] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:37.671] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:37.671] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:37.672] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:37.672] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:37.673] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:37.673] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:37.674] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:37.674] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:37.674] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:37.675] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:37.675] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:37.675] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:37.675] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:37.676] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:37.676] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:37.676] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:37.676] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:37.677] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:37.677] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:37.677] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:37.678] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:37.678] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:37.678] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:37.695] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [heartbalance] Found status: AHEAD Current: 1.0.3 Target: null
+[09Dec2025 18:52:37.695] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [searchables] Starting version check at https://updates.blamejared.com/get?n=searchables&gv=1.20.1
+[09Dec2025 18:52:37.800] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [searchables] Found status: BETA Current: 1.0.3 Target: 1.0.3
+[09Dec2025 18:52:37.801] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Starting version check at https://api.modrinth.com/updates/tpehi7ww/forge_updates.json
+[09Dec2025 18:52:38.020] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_dungeons_andtaverns] Found status: OUTDATED Current: 3.0.3.f Target: 3.0.3.f+mod
+[09Dec2025 18:52:38.020] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [smallships] Starting version check at https://raw.githubusercontent.com/talhanation/smallships/main/update.json
+[09Dec2025 18:52:38.030] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [smallships] Found status: UP_TO_DATE Current: 2.0.0-b1.4 Target: null
+[09Dec2025 18:52:38.030] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [toms_storage] Starting version check at https://raw.githubusercontent.com/tom5454/Toms-Storage/master/version-check.json
+[09Dec2025 18:52:38.040] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [toms_storage] Found status: BETA Current: 1.7.1 Target: 1.7.1
+[09Dec2025 18:52:38.040] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mutantmonsters] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/mutantmonsters.json
+[09Dec2025 18:52:38.050] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mutantmonsters] Found status: OUTDATED Current: 8.0.7 Target: 8.0.8
+[09Dec2025 18:52:38.050] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [visualworkbench] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/visualworkbench.json
+[09Dec2025 18:52:38.059] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [visualworkbench] Found status: UP_TO_DATE Current: 8.0.1 Target: null
+[09Dec2025 18:52:38.059] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Starting version check at https://mrcrayfish.com/modupdatejson?id=goblintraders
+[09Dec2025 18:52:38.124] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[09Dec2025 18:52:38.179] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.3.7.jar%23392!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.3.7.jar%23392!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	... 6 more
+[09Dec2025 18:52:38.181] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [configured] Starting version check at https://mrcrayfish.com/modupdatejson?id=configured
+[09Dec2025 18:52:38.204] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.3.7.jar%23392!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.3.7.jar%23392!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	... 6 more
+[09Dec2025 18:52:38.205] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzlesaccessapi.json
+[09Dec2025 18:52:38.216] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Found status: BETA Current: 20.1.1 Target: null
+[09Dec2025 18:52:38.216] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[09Dec2025 18:52:38.315] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:38.316] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:38.316] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:38.316] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:38.316] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:38.317] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:38.317] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:38.317] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:38.317] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:38.317] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:38.318] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:38.318] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:38.318] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:38.318] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:38.318] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:38.319] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:38.319] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:38.319] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:38.319] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:38.320] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:38.320] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:38.320] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:38.320] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:38.320] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:38.321] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:38.321] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:38.321] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:38.321] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:38.377] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.10
+[09Dec2025 18:52:38.377] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ultris_mr] Starting version check at https://api.modrinth.com/updates/tA7mQv7R/forge_updates.json
+[09Dec2025 18:52:38.413] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:38.413] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:38.413] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:38.413] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:38.414] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:38.414] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:38.414] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:38.414] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:38.414] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:38.414] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:38.415] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:38.415] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:38.415] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:38.415] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:38.415] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:38.415] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:38.416] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:38.416] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:38.416] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:38.416] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:38.416] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:38.416] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:38.417] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:38.417] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:38.417] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:38.417] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:38.417] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:38.418] [main/ERROR] [net.minecraft.Util/]: Entity dungeonsmod:extrapart has no attributes
+[09Dec2025 18:52:38.441] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ultris_mr] Found status: OUTDATED Current: 5.6.9c Target: 5.6.9c+mod
+[09Dec2025 18:52:38.441] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
+[09Dec2025 18:52:38.453] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.20-2.14.14 Target: null
+[09Dec2025 18:52:38.453] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [iceberg] Starting version check at https://mc-update-check.anthonyhilyard.com/520110
+[09Dec2025 18:52:38.474] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [iceberg] Found status: UP_TO_DATE Current: 1.1.25 Target: null
+[09Dec2025 18:52:38.474] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Starting version check at https://update.maxhenkel.de/forge/gravestone
+[09Dec2025 18:52:38.588] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/testing23/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23391!/assets/.mcassetsroot' uses unexpected schema
+[09Dec2025 18:52:38.588] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/testing23/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23391!/data/.mcassetsroot' uses unexpected schema
+[09Dec2025 18:52:38.971] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Found status: OUTDATED Current: 1.20.1-1.0.32 Target: 1.20.1-1.0.35
+[09Dec2025 18:52:38.971] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [backpacked] Starting version check at https://mrcrayfish.com/modupdatejson?id=backpacked
+[09Dec2025 18:52:38.997] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.3.7.jar%23392!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.3.7.jar%23392!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	... 6 more
+[09Dec2025 18:52:38.998] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+[09Dec2025 18:52:39.008] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: OUTDATED Current: 8.1.32 Target: 8.1.33
+[09Dec2025 18:52:39.008] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [overflowingbars] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/overflowingbars.json
+[09Dec2025 18:52:39.018] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [overflowingbars] Found status: UP_TO_DATE Current: 8.0.1 Target: null
+[09Dec2025 18:52:39.274] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:recipe.js in 0.007 s
+[09Dec2025 18:52:39.275] [main/INFO] [KubeJS Server/]: Loaded 1/1 KubeJS server scripts in 0.023 s with 0 errors and 0 warnings
+[09Dec2025 18:52:39.275] [main/INFO] [KubeJS Server/]: Scripts loaded
+[09Dec2025 18:52:39.287] [main/INFO] [KubeJS Server/]: Initializing recipe event...
+[09Dec2025 18:52:39.787] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeon:abandoned_oak_palace/start_pool`: { spacing: 50, separation: 25, salt: 1694767080, useValueFromConfiguration: true}
+[09Dec2025 18:52:39.795] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonend:aws_all_end_structures/start_pool`: { spacing: 20, separation: 15, salt: 49082056, useValueFromConfiguration: true}
+[09Dec2025 18:52:39.796] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeon:better_default_jungle_temple/start_pool`: { spacing: 50, separation: 25, salt: 1654787080, useValueFromConfiguration: true}
+[09Dec2025 18:52:39.799] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:brigantine/start_pool`: { spacing: 50, separation: 25, salt: 254835856, useValueFromConfiguration: true}
+[09Dec2025 18:52:39.801] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeon:desert_temple_husk/start_pool`: { spacing: 50, separation: 25, salt: 1394767080, useValueFromConfiguration: true}
+[09Dec2025 18:52:39.805] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:frigate_large/start_pool`: { spacing: 50, separation: 25, salt: 35482856, useValueFromConfiguration: true}
+[09Dec2025 18:52:39.805] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:frigate_medium/start_pool`: { spacing: 50, separation: 25, salt: 45482856, useValueFromConfiguration: true}
+[09Dec2025 18:52:39.807] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeon:jungle_giant_tree/start_pool`: { spacing: 50, separation: 25, salt: 1494763380, useValueFromConfiguration: true}
+[09Dec2025 18:52:39.813] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeon:mushroom_abandonned/start_pool`: { spacing: 50, separation: 25, salt: 1494227080, useValueFromConfiguration: true}
+[09Dec2025 18:52:39.815] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:ocean_cage/start_pool`: { spacing: 50, separation: 25, salt: 40842806, useValueFromConfiguration: true}
+[09Dec2025 18:52:39.816] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:ocean_quad/start_pool`: { spacing: 50, separation: 25, salt: 254835856, useValueFromConfiguration: true}
+[09Dec2025 18:52:39.816] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:ocean_ruin_pillager/start_pool`: { spacing: 50, separation: 25, salt: 254145856, useValueFromConfiguration: true}
+[09Dec2025 18:52:39.816] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:ocean_ruin_vanilla_temple/start_pool`: { spacing: 50, separation: 25, salt: 25482856, useValueFromConfiguration: true}
+[09Dec2025 18:52:39.816] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:ocean_temple_quad/start_pool`: { spacing: 50, separation: 25, salt: 35482856, useValueFromConfiguration: true}
+[09Dec2025 18:52:39.817] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:ocean_the_column_temple/start_pool`: { spacing: 50, separation: 25, salt: 15482856, useValueFromConfiguration: true}
+[09Dec2025 18:52:39.817] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:ocean_warn_temple/start_pool`: { spacing: 50, separation: 25, salt: 45482856, useValueFromConfiguration: true}
+[09Dec2025 18:52:39.821] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeon:swamp_big_temple/start_pool`: { spacing: 50, separation: 25, salt: 1594763280, useValueFromConfiguration: true}
+[09Dec2025 18:52:39.823] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeon:the_usine/start_pool`: { spacing: 50, separation: 25, salt: 1694767078, useValueFromConfiguration: true}
+[09Dec2025 18:52:39.823] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeon:t_z_tower/start_pool`: { spacing: 50, separation: 25, salt: 1794767078, useValueFromConfiguration: true}
+[09Dec2025 18:52:39.824] [main/INFO] [bettervillage/]: StructureSet modified for minecraft:village : Now using custom village configuration (can be disabled in the better villages config: boolean.villages.enabled_custom_config).
+[09Dec2025 18:52:39.826] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeon:witch_castle/start_pool`: { spacing: 50, separation: 25, salt: 1894776078, useValueFromConfiguration: true}
+[09Dec2025 18:52:40.895] [main/INFO] [bountiful/]: Adding serverside commands..
+[09Dec2025 18:52:40.972] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[09Dec2025 18:52:41.009] [Worker-Main-3/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_215924_ in modernfix-forge.mixins.json:perf.tag_id_caching.TagEntryMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[09Dec2025 18:52:41.043] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag zeldamod:has_monster_room as it is missing following references: minecraft:monster_room (from Legendary Armory 1.20.1 1.4.4.jar)
+[09Dec2025 18:52:41.144] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag zeldamod:mitts_blocks as it is missing following references: #minecraft:pickaxe (from Legendary Armory 1.20.1 1.4.4.jar), 
+	#minecraft:shovel (from Legendary Armory 1.20.1 1.4.4.jar)
+[09Dec2025 18:52:44.316] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:zeldamod:blocks/sky_grass_block
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'zeldamod:sky_grass_block'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23391!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23391!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23391!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23391!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23391!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23391!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23391!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23391!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23391!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23391!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23391!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23391!/:?]
+	at net.minecraft.world.level.storage.loot.entries.CompositeEntryBase$1.m_5921_(CompositeEntryBase.java:61) ~[server-1.20.1-20230612.114412-srg.jar%23391!/:?]
+	at net.minecraft.world.level.storage.loot.entries.CompositeEntryBase$1.m_5921_(CompositeEntryBase.java:53) ~[server-1.20.1-20230612.114412-srg.jar%23391!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23391!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23391!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23391!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23391!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23391!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23391!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23391!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23391!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23391!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23391!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23391!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23396!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23396!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23391!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23391!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1429) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23391!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[09Dec2025 18:52:44.555] [main/INFO] [KubeJS Server/]: Processing recipes...
+[09Dec2025 18:52:44.568] [main/WARN] [KubeJS Server/]: Failed to parse recipe '1_splatus:ultris/ominous_eye[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[09Dec2025 18:52:44.572] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'stalwart_dungeons:wartedtungstenbootsrecipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[09Dec2025 18:52:44.585] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'stalwart_dungeons:wartedtungstenhelmetrecipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[09Dec2025 18:52:44.586] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'stalwart_dungeons:warted_tungsten_shield_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[09Dec2025 18:52:44.601] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'stalwart_dungeons:netherite_hammer_recipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[09Dec2025 18:52:44.617] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'cataclysm:stonecutting/azure_seastone_brick_stair_from_stonecutting[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[09Dec2025 18:52:44.629] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'stalwart_dungeons:wartedtungstenchestplaterecipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[09Dec2025 18:52:44.632] [main/WARN] [KubeJS Server/]: Failed to parse recipe '1_splatus:ultris/command[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[09Dec2025 18:52:44.635] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'stalwart_dungeons:wartedtungstenleggingsrecipe[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[09Dec2025 18:52:44.657] [main/INFO] [KubeJS Server/]: Found 4492 recipes in 100.1 ms
+[09Dec2025 18:52:44.668] [main/INFO] [KubeJS Server/]: recipe.js#18: Hello! The recipe event has fired!
+[09Dec2025 18:52:44.671] [main/INFO] [KubeJS Server/]: Posted recipe events in 13.49 ms
+[09Dec2025 18:52:44.887] [main/INFO] [KubeJS Server/]: Added 1 recipes, removed 0 recipes, modified 0 recipes, with 0 failed recipes in 213.4 ms
+[09Dec2025 18:52:44.887] [main/INFO] [ModernFix/]: Clearing KubeJS recipe lists...
+[09Dec2025 18:52:45.026] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 4069 advancements
+[09Dec2025 18:52:45.031] [main/INFO] [placebo/]: Registered 0 additional recipes.
+[09Dec2025 18:52:45.033] [main/INFO] [com.cupboard.Cupboard/]: Loaded config for: lootintegrations.json
+[09Dec2025 18:52:45.052] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio slots
+[09Dec2025 18:52:45.055] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio entities
+[09Dec2025 18:52:45.119] [main/INFO] [STDOUT/]: [io.ejekta.bountiful.data.Pool:merged:57]: Merging farmer_objs with farmer_objs
+[09Dec2025 18:52:45.230] [main/INFO] [bountiful/]: Trying to load unloaded files from: config/bountiful/bounty_pools
+[09Dec2025 18:52:45.240] [main/INFO] [bountiful/]: Trying to load unloaded files from: config/bountiful/bounty_decrees
+[09Dec2025 18:52:45.242] [main/ERROR] [bettervillage/]: Bountiful compatibility is not enabled for Better Village and Bountiful is present in your mod list.
+     - Please install the datapack for better compatibility between Better Villages and Bountiful.
+     - You can find the datapack URL in the `compatibility` section of the Better Villages description.
+     - URL=https://www.curseforge.com/minecraft/mc-mods/better-village-forge
+[09Dec2025 18:52:45.242] [main/ERROR] [bettervillage/]: Ice And Fire compatibility is not enabled for Better Village and Ice And Fire is present in your mod list.
+     - Please install the datapack for better compatibility between Better Villages and Ice And Fire.
+     - You can find the datapack URL in the `compatibility` section of the Better Villages description.
+     - URL=https://www.curseforge.com/minecraft/mc-mods/better-village-forge
+[09Dec2025 18:52:45.243] [main/INFO] [Dungeon Crawl/]: Loading data...
+[09Dec2025 18:52:45.483] [main/INFO] [Dungeon Crawl/]: Done.
+[09Dec2025 18:52:45.515] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:drowned
+[09Dec2025 18:52:45.515] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:iron_golem
+[09Dec2025 18:52:45.515] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:snow_golem
+[09Dec2025 18:52:45.515] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:zombie
+[09Dec2025 18:52:45.515] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:skeleton
+[09Dec2025 18:52:45.516] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:pillager
+[09Dec2025 18:52:45.516] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:vex
+[09Dec2025 18:52:45.516] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:evoker
+[09Dec2025 18:52:45.516] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:zombie
+[09Dec2025 18:52:45.516] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:vindicator
+[09Dec2025 18:52:45.517] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:wither_skeleton
+[09Dec2025 18:52:45.517] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:wither_skeleton
+[09Dec2025 18:52:45.517] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:cave_spider
+[09Dec2025 18:52:45.517] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:zombie
+[09Dec2025 18:52:45.517] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:husk
+[09Dec2025 18:52:45.517] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:evoker
+[09Dec2025 18:52:45.517] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:wandering_trader
+[09Dec2025 18:52:45.517] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:guardian
+[09Dec2025 18:52:45.517] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:vindicator
+[09Dec2025 18:52:45.517] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:shulker
+[09Dec2025 18:52:45.518] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:zoglin
+[09Dec2025 18:52:45.518] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:chicken
+[09Dec2025 18:52:45.518] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:blaze
+[09Dec2025 18:52:45.518] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:witch
+[09Dec2025 18:52:45.518] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:phantom
+[09Dec2025 18:52:45.518] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:mooshroom
+[09Dec2025 18:52:45.518] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:rabbit
+[09Dec2025 18:52:45.518] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:piglin_brute
+[09Dec2025 18:52:45.518] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:ghast
+[09Dec2025 18:52:45.518] [main/INFO] [com.brutalbosses.BrutalBosses/]: Loaded boss variant for: minecraft:stray
+[09Dec2025 18:52:45.520] [main/INFO] [placebo/]: Registered 0 gear_sets.
+[09Dec2025 18:52:45.537] [main/WARN] [net.minecraftforge.registries.NamespacedWrapper/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: 1_splatus:spellbound/hot
+[09Dec2025 18:52:45.580] [main/WARN] [ModernFix/]: Initial datapack load took 6.949 s
+[09Dec2025 18:52:45.720] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[09Dec2025 18:52:45.720] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[09Dec2025 18:52:45.720] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: CREATIVE
+[09Dec2025 18:52:45.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[09Dec2025 18:52:45.870] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[09Dec2025 18:52:45.891] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[09Dec2025 18:52:45.968] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[09Dec2025 18:52:45.968] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[09Dec2025 18:52:45.969] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[09Dec2025 18:52:45.969] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[09Dec2025 18:52:45.986] [Server thread/INFO] [com.tom.storagemod.StorageMod/]: Loaded Tom's Simple Storage config file toms_storage-server.toml
+[09Dec2025 18:52:45.993] [Server thread/INFO] [Puzzles Lib/]: Loading server config for mutantmonsters
+[09Dec2025 18:52:46.365] [Server thread/INFO] [FTB Teams/]: loaded team data: 3 known players, 3 teams total
+[09Dec2025 18:52:46.532] [Server thread/INFO] [spark/]: Starting background profiler...
+[09Dec2025 18:52:46.807] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
+[09Dec2025 18:52:47.536] [Server thread/INFO] [Framework/]: Loading server configs...
+[09Dec2025 18:52:47.569] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[09Dec2025 18:52:47.839] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[09Dec2025 18:52:47.840] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[09Dec2025 18:52:48.212] [Server thread/WARN] [com.structureessentials.StructureEssentials/]: Non-unique structure_set salt:0 potentially creating overlapping structures detected. Structure sets: [minecraft:mineshafts, minecraft:strongholds, minecraft:buried_treasures]
+[09Dec2025 18:52:48.212] [Server thread/WARN] [com.structureessentials.StructureEssentials/]: Non-unique structure_set salt:14357617 potentially creating overlapping structures detected. Structure sets: [dungeonsmod:the_camp, minecraft:desert_pyramids]
+[09Dec2025 18:52:48.213] [Server thread/WARN] [com.structureessentials.StructureEssentials/]: Non-unique structure_set salt:254835856 potentially creating overlapping structures detected. Structure sets: [awesomedungeonocean:brigantine, awesomedungeonocean:ocean_quad]
+[09Dec2025 18:52:48.213] [Server thread/WARN] [com.structureessentials.StructureEssentials/]: Non-unique structure_set salt:1694767080 potentially creating overlapping structures detected. Structure sets: [repurposed_structures:fortresses_overworld, awesomedungeon:abandoned_oak_palace]
+[09Dec2025 18:52:48.213] [Server thread/WARN] [com.structureessentials.StructureEssentials/]: Non-unique structure_set salt:30084232 potentially creating overlapping structures detected. Structure sets: [1_splatus:blaze_king_tower, minecraft:nether_complexes]
+[09Dec2025 18:52:48.213] [Server thread/WARN] [com.structureessentials.StructureEssentials/]: Non-unique structure_set salt:10387313 potentially creating overlapping structures detected. Structure sets: [minecraft:ocean_monuments, minecraft:end_cities, dungeoncrawl:dungeons, 1_splatus:endcity_pyramid]
+[09Dec2025 18:52:48.213] [Server thread/WARN] [com.structureessentials.StructureEssentials/]: Non-unique structure_set salt:783 potentially creating overlapping structures detected. Structure sets: [nova_structures:taverns, nova_structures:badlands_miner_outpost]
+[09Dec2025 18:52:48.213] [Server thread/WARN] [com.structureessentials.StructureEssentials/]: Non-unique structure_set salt:499672 potentially creating overlapping structures detected. Structure sets: [bosses_of_mass_destruction:obsidilith_arena, bosses_of_mass_destruction:gauntlet_arena]
+[09Dec2025 18:52:48.213] [Server thread/WARN] [com.structureessentials.StructureEssentials/]: Non-unique structure_set salt:9326560 potentially creating overlapping structures detected. Structure sets: [dungeonsmod:the_house, dungeonsmod:the_mines]
+[09Dec2025 18:52:48.214] [Server thread/WARN] [com.structureessentials.StructureEssentials/]: Non-unique structure_set salt:45482856 potentially creating overlapping structures detected. Structure sets: [awesomedungeonocean:frigate_medium, awesomedungeonocean:ocean_warn_temple]
+[09Dec2025 18:52:48.214] [Server thread/WARN] [com.structureessentials.StructureEssentials/]: Non-unique structure_set salt:35482856 potentially creating overlapping structures detected. Structure sets: [awesomedungeonocean:ocean_temple_quad, awesomedungeonocean:frigate_large]
+[09Dec2025 18:52:48.214] [Server thread/WARN] [com.structureessentials.StructureEssentials/]: Non-unique structure_set salt:10387312 potentially creating overlapping structures detected. Structure sets: [minecraft:villages, nova_structures:villages_jungle, nova_structures:villages_swamp]
+[09Dec2025 18:52:48.214] [Server thread/WARN] [com.structureessentials.StructureEssentials/]: Non-unique structure_set salt:4533232 potentially creating overlapping structures detected. Structure sets: [nova_structures:illager_camp, nova_structures:nether_camps]
+[09Dec2025 18:52:48.214] [Server thread/WARN] [com.structureessentials.StructureEssentials/]: Non-unique structure_set salt:239021 potentially creating overlapping structures detected. Structure sets: [nova_structures:desert_ruins, nova_structures:jungle_ruins]
+[09Dec2025 18:52:48.218] [Server thread/INFO] [net.regions_unexplored.RegionsUnexploredMod/]: Loading dimension "minecraft:the_nether" with biome source: "minecraft:multi_noise".
+[09Dec2025 18:52:48.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[09Dec2025 18:52:48.225] [Server thread/INFO] [KubeJS Server/]: Server resource reload complete!
+[09Dec2025 18:52:49.392] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[09Dec2025 18:52:49.392] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[09Dec2025 18:52:49.393] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[09Dec2025 18:52:49.827] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[09Dec2025 18:52:50.240] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[09Dec2025 18:52:50.808] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[09Dec2025 18:52:51.417] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: brutalbosses.json
+[09Dec2025 18:52:51.629] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3409 ms
+[09Dec2025 18:52:51.629] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (5.649s)! For help, type "help"
+[09Dec2025 18:52:51.789] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[09Dec2025 18:52:51.790] [Server thread/INFO] [xaero.map.WorldMap/]: Registered synced player tracker system: ftb_teams
+[09Dec2025 18:52:51.820] [Server thread/INFO] [bountiful/]: Registering Bounty Board Jigsaw Piece for Village Type: plains
+[09Dec2025 18:52:51.822] [Server thread/INFO] [bountiful/]: Registering Bounty Board Jigsaw Piece for Village Type: savanna
+[09Dec2025 18:52:51.822] [Server thread/INFO] [bountiful/]: Registering Bounty Board Jigsaw Piece for Village Type: snowy
+[09Dec2025 18:52:51.822] [Server thread/INFO] [bountiful/]: Registering Bounty Board Jigsaw Piece for Village Type: taiga
+[09Dec2025 18:52:51.822] [Server thread/INFO] [bountiful/]: Registering Bounty Board Jigsaw Piece for Village Type: desert
+[09Dec2025 18:52:51.823] [Server thread/INFO] [xaero.hud.minimap.MinimapLogs/]: Registered synced player tracker system: ftb_teams
+[09Dec2025 18:52:51.851] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: biomemusic.json
+[09Dec2025 18:52:51.854] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
+[09Dec2025 18:52:51.855] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
+[09Dec2025 18:52:52.048] [Server thread/INFO] [net.bettercombat.logic.WeaponRegistry/]: Encoded Weapon Attribute registry size (with package overhead): 206022 bytes (in 21 string chunks with the size of 10000)
+[09Dec2025 18:52:52.049] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
+[09Dec2025 18:52:52.058] [Server thread/WARN] [ModernFix/]: Dedicated server took 46.661 seconds to load
+[09Dec2025 18:54:20.124] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
+[09Dec2025 18:54:20.198] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: claco21[/10.228.82.35:28147] logged in with entity id 167 at (-108.00957306011615, 65.0, 70.39116452600466)
+[09Dec2025 18:54:20.330] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player claco21
+[09Dec2025 18:54:20.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: claco21 joined the game
+[09Dec2025 18:54:20.526] [Server thread/INFO] [fallingtrees | Config/]: Sending common config 'fallingtrees:fallingtrees_common' to claco21
+[09Dec2025 18:54:20.528] [Netty Epoll Server IO #1/INFO] [fallingtrees | Config/]: Received client config 'fallingtrees:fallingtrees_client' from claco21
+[09Dec2025 18:54:20.639] [Server thread/INFO] [Jade/]: Syncing config to claco21 (e1e8ac53-c473-30f8-8dcf-a99b284708a7)
+[09Dec2025 18:54:52.600] [Worker-Main-3/WARN] [ModernFix/]: Skipped emitting ENTITY_MOUNT game event for entity Chicken['Chicken'/528, l='ServerLevel[world]', x=164.50, y=49.00, z=31.50] as it would cause deadlock
+[09Dec2025 18:55:00.975] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: claco3[/10.228.82.122:54205] logged in with entity id 644 at (-265.5, 66.0, 3.5)
+[09Dec2025 18:55:00.990] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player claco3
+[09Dec2025 18:55:00.993] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: claco3 joined the game
+[09Dec2025 18:55:01.036] [Server thread/INFO] [fallingtrees | Config/]: Sending common config 'fallingtrees:fallingtrees_common' to claco3
+[09Dec2025 18:55:01.044] [Server thread/INFO] [Jade/]: Syncing config to claco3 (c5465e06-ee46-36b7-ba9b-58b78fd785a7)
+[09Dec2025 18:55:01.373] [Netty Epoll Server IO #3/INFO] [fallingtrees | Config/]: Received client config 'fallingtrees:fallingtrees_client' from claco3
+[09Dec2025 18:56:45.692] [Worker-Main-3/WARN] [ModdingLegacy/StructureGel/]: [structure_gel] Empty or non-existent pool: minecraft:
+[09Dec2025 18:56:45.692] [Worker-Main-3/WARN] [ModdingLegacy/StructureGel/]: [structure_gel] Empty or non-existent pool: minecraft:
+[09Dec2025 18:56:45.753] [Worker-Main-3/WARN] [ModdingLegacy/StructureGel/]: [structure_gel] Empty or non-existent pool: minecraft:
+[09Dec2025 18:56:45.883] [Worker-Main-3/WARN] [ModdingLegacy/StructureGel/]: [structure_gel] Empty or non-existent pool: minecraft:
+[09Dec2025 18:56:45.884] [Worker-Main-3/WARN] [ModdingLegacy/StructureGel/]: [structure_gel] Empty or non-existent pool: minecraft:
+[09Dec2025 18:56:45.884] [Worker-Main-3/WARN] [ModdingLegacy/StructureGel/]: [structure_gel] Empty or non-existent pool: minecraft:
+[09Dec2025 18:56:45.921] [Worker-Main-3/WARN] [ModdingLegacy/StructureGel/]: [structure_gel] Empty or non-existent pool: minecraft:
+[09Dec2025 18:56:46.146] [Worker-Main-3/WARN] [ModdingLegacy/StructureGel/]: [structure_gel] Empty or non-existent pool: minecraft:
+[09Dec2025 18:56:46.146] [Worker-Main-3/WARN] [ModdingLegacy/StructureGel/]: [structure_gel] Empty or non-existent pool: minecraft:
+[09Dec2025 18:56:46.354] [Worker-Main-3/WARN] [ModdingLegacy/StructureGel/]: [structure_gel] Empty or non-existent pool: minecraft:
+[09Dec2025 18:56:46.355] [Worker-Main-3/WARN] [ModdingLegacy/StructureGel/]: [structure_gel] Empty or non-existent pool: minecraft:
+[09Dec2025 18:56:46.591] [Worker-Main-3/WARN] [ModdingLegacy/StructureGel/]: [structure_gel] Empty or non-existent pool: minecraft:
+[09Dec2025 18:56:46.593] [Worker-Main-3/WARN] [ModdingLegacy/StructureGel/]: [structure_gel] Empty or non-existent pool: minecraft:
+[09Dec2025 18:56:46.594] [Worker-Main-3/WARN] [ModdingLegacy/StructureGel/]: [structure_gel] Empty or non-existent pool: minecraft:
+[09Dec2025 18:56:47.279] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 18:57:54.889] [Worker-Main-12/WARN] [ModdingLegacy/StructureGel/]: [structure_gel] Empty or non-existent pool: minecraft:
+[09Dec2025 18:59:41.667] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:02:54.875] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5665ms or 113 ticks behind
+[09Dec2025 19:02:54.905] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: claco3 moved too quickly! -10.327394523832936,0.0,-0.5947287650410544
+[09Dec2025 19:05:00.574] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:05:00.586] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:05:00.588] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:05:00.588] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:05:07.319] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:14:43.947] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:14:51.639] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:16:27.557] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:16:49.541] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.heightproviders.UniformHeight/]: Empty height range: [0 absolute--16 absolute]
+[09Dec2025 19:17:57.636] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: claco3 has made the advancement [Alex's Mobs]
+[09Dec2025 19:19:49.201] [Worker-Main-12/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:21:54.205] [Worker-Main-12/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:23:13.609] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:23:46.661] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:25:38.858] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: claco3 moved too quickly! -6.9019626259887445,0.0,-7.705226372407196
+[09Dec2025 19:26:10.911] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 32951ms or 659 ticks behind
+[09Dec2025 19:25:52.551] [spark-async-sampler-worker-thread/WARN] [spark/]: Timed out waiting for world statistics
+[09Dec2025 19:26:10.971] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: claco21 lost connection: Disconnected
+[09Dec2025 19:26:10.971] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: claco21 left the game
+[09Dec2025 19:26:10.982] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: claco3 lost connection: Disconnected
+[09Dec2025 19:26:10.982] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: claco3 left the game
+[09Dec2025 19:26:49.995] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: claco3[/10.228.82.122:57943] logged in with entity id 33122 at (-9803.104372288171, 184.7852228518071, -9304.245058126518)
+[09Dec2025 19:26:50.025] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player claco3
+[09Dec2025 19:26:50.038] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: claco3 joined the game
+[09Dec2025 19:26:50.051] [Server thread/INFO] [fallingtrees | Config/]: Sending common config 'fallingtrees:fallingtrees_common' to claco3
+[09Dec2025 19:26:50.066] [Server thread/INFO] [Jade/]: Syncing config to claco3 (c5465e06-ee46-36b7-ba9b-58b78fd785a7)
+[09Dec2025 19:26:50.292] [Netty Epoll Server IO #4/INFO] [fallingtrees | Config/]: Received client config 'fallingtrees:fallingtrees_client' from claco3
+[09Dec2025 19:27:05.334] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: claco21[/10.228.82.35:40659] logged in with entity id 33478 at (-649.1041597317117, 72.0, -400.4648610933388)
+[09Dec2025 19:27:05.362] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player claco21
+[09Dec2025 19:27:05.366] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: claco21 joined the game
+[09Dec2025 19:27:05.390] [Server thread/INFO] [fallingtrees | Config/]: Sending common config 'fallingtrees:fallingtrees_common' to claco21
+[09Dec2025 19:27:05.396] [Server thread/INFO] [Jade/]: Syncing config to claco21 (e1e8ac53-c473-30f8-8dcf-a99b284708a7)
+[09Dec2025 19:27:05.574] [Netty Epoll Server IO #5/INFO] [fallingtrees | Config/]: Received client config 'fallingtrees:fallingtrees_client' from claco21
+[09Dec2025 19:27:55.751] [Worker-Main-12/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:27:56.739] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:27:56.740] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:28:27.268] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:28:27.270] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:28:27.271] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:28:27.271] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:29:44.514] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:29:47.771] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:31:01.231] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:31:01.233] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:31:01.233] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:31:01.235] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:31:01.240] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:31:01.257] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:31:01.261] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:31:01.262] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:31:01.262] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:31:01.263] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:31:01.265] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:31:01.266] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:31:01.271] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:31:01.271] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:31:01.272] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:31:01.272] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:31:01.274] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:31:01.275] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:31:01.276] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:31:01.277] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:31:01.278] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:31:01.280] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:31:01.282] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:31:01.283] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:31:01.283] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:31:01.286] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:31:01.286] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:31:01.288] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:31:01.288] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:31:01.290] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:31:01.292] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:31:01.294] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:31:01.298] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:31:01.298] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:31:01.298] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:31:01.298] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:31:01.298] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:31:01.298] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:31:01.298] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:31:01.298] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:31:01.298] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:31:01.298] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:31:01.298] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:31:01.298] [Worker-Main-3/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:31:03.231] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:33:11.798] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:33:36.909] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-12473, y=22, z=-12469} but found not block entity block Block{minecraft:water}[level=8] at location
+[09Dec2025 19:33:36.910] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Tried to load a block entity for block Block{minecraft:water}[level=8] but failed at location BlockPos{x=-12473, y=22, z=-12469}
+[09Dec2025 19:37:01.381] [Worker-Main-12/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:37:04.802] [Worker-Main-12/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:37:04.803] [Worker-Main-12/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:37:04.803] [Worker-Main-12/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:37:04.803] [Worker-Main-12/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:37:04.804] [Worker-Main-12/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:37:04.804] [Worker-Main-12/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:37:04.804] [Worker-Main-12/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:37:04.805] [Worker-Main-12/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:37:04.805] [Worker-Main-12/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:37:04.806] [Worker-Main-12/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:37:04.807] [Worker-Main-12/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:37:04.808] [Worker-Main-12/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:37:04.809] [Worker-Main-12/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:37:04.809] [Worker-Main-12/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:37:04.810] [Worker-Main-12/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:37:04.811] [Worker-Main-12/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:37:04.812] [Worker-Main-12/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:37:04.814] [Worker-Main-12/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:37:04.815] [Worker-Main-12/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:37:04.816] [Worker-Main-12/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:37:04.816] [Worker-Main-12/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:37:04.817] [Worker-Main-12/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:37:04.818] [Worker-Main-12/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:37:04.820] [Worker-Main-12/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:37:04.821] [Worker-Main-12/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:37:04.822] [Worker-Main-12/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:37:04.826] [Worker-Main-12/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:37:04.827] [Worker-Main-12/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:37:04.827] [Worker-Main-12/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:37:04.827] [Worker-Main-12/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:37:04.827] [Worker-Main-12/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:37:04.827] [Worker-Main-12/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:38:57.803] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:39:10.124] [Worker-Main-12/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:40:07.139] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:40:17.668] [Worker-Main-3/WARN] [ModdingLegacy/StructureGel/]: [structure_gel] Empty or non-existent pool: minecraft:
+[09Dec2025 19:40:17.939] [Worker-Main-3/WARN] [ModdingLegacy/StructureGel/]: [structure_gel] Empty or non-existent pool: minecraft:
+[09Dec2025 19:40:18.316] [Worker-Main-3/WARN] [ModdingLegacy/StructureGel/]: [structure_gel] Empty or non-existent pool: minecraft:
+[09Dec2025 19:40:18.353] [Worker-Main-3/WARN] [ModdingLegacy/StructureGel/]: [structure_gel] Empty or non-existent pool: minecraft:
+[09Dec2025 19:40:18.521] [Worker-Main-3/WARN] [ModdingLegacy/StructureGel/]: [structure_gel] Empty or non-existent pool: minecraft:
+[09Dec2025 19:40:18.585] [Worker-Main-3/WARN] [ModdingLegacy/StructureGel/]: [structure_gel] Empty or non-existent pool: minecraft:
+[09Dec2025 19:40:19.086] [Worker-Main-3/WARN] [ModdingLegacy/StructureGel/]: [structure_gel] Empty or non-existent pool: minecraft:
+[09Dec2025 19:40:19.086] [Worker-Main-3/WARN] [ModdingLegacy/StructureGel/]: [structure_gel] Empty or non-existent pool: minecraft:
+[09Dec2025 19:40:19.086] [Worker-Main-3/WARN] [ModdingLegacy/StructureGel/]: [structure_gel] Empty or non-existent pool: minecraft:
+[09Dec2025 19:40:19.166] [Worker-Main-3/WARN] [ModdingLegacy/StructureGel/]: [structure_gel] Empty or non-existent pool: minecraft:
+[09Dec2025 19:40:19.167] [Worker-Main-3/WARN] [ModdingLegacy/StructureGel/]: [structure_gel] Empty or non-existent pool: minecraft:
+[09Dec2025 19:40:19.167] [Worker-Main-3/WARN] [ModdingLegacy/StructureGel/]: [structure_gel] Empty or non-existent pool: minecraft:
+[09Dec2025 19:40:19.167] [Worker-Main-3/WARN] [ModdingLegacy/StructureGel/]: [structure_gel] Empty or non-existent pool: minecraft:
+[09Dec2025 19:40:19.167] [Worker-Main-3/WARN] [ModdingLegacy/StructureGel/]: [structure_gel] Empty or non-existent pool: minecraft:
+[09Dec2025 19:40:19.167] [Worker-Main-3/WARN] [ModdingLegacy/StructureGel/]: [structure_gel] Empty or non-existent pool: minecraft:
+[09Dec2025 19:40:19.167] [Worker-Main-3/WARN] [ModdingLegacy/StructureGel/]: [structure_gel] Empty or non-existent pool: minecraft:
+[09Dec2025 19:40:19.167] [Worker-Main-3/WARN] [ModdingLegacy/StructureGel/]: [structure_gel] Empty or non-existent pool: minecraft:
+[09Dec2025 19:40:29.015] [Worker-Main-12/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:40:29.307] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:40:29.308] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:40:29.308] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:40:29.309] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:40:29.309] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:40:29.309] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:40:29.310] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:40:29.311] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:40:29.313] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:40:29.314] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:40:29.315] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:40:29.315] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:40:29.316] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:40:29.317] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:40:29.318] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:40:29.318] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:40:29.320] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:40:29.320] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:40:29.321] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:40:29.327] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:40:29.328] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:40:29.330] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:40:29.333] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:40:29.333] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:40:29.334] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:40:29.338] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:40:29.338] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:40:29.339] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:40:29.341] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:40:29.342] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:40:29.342] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:40:29.342] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:40:29.342] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:40:29.342] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:40:29.342] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:40:29.342] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:40:29.342] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:40:29.343] [Worker-Main-2/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:42:29.708] [Worker-Main-12/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:43:29.770] [Worker-Main-12/WARN] [ModdingLegacy/StructureGel/]: [structure_gel] Empty or non-existent pool: minecraft:
+[09Dec2025 19:43:30.516] [Worker-Main-12/WARN] [ModdingLegacy/StructureGel/]: [structure_gel] Empty or non-existent pool: minecraft:
+[09Dec2025 19:43:30.516] [Worker-Main-12/WARN] [ModdingLegacy/StructureGel/]: [structure_gel] Empty or non-existent pool: minecraft:
+[09Dec2025 19:47:50.082] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: claco21 lost connection: Disconnected
+[09Dec2025 19:47:50.083] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: claco21 left the game
+[09Dec2025 19:47:58.916] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: claco21[/10.228.82.35:14155] logged in with entity id 55235 at (-497.48681630560753, 88.5, -489.76183608683033)
+[09Dec2025 19:47:58.934] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player claco21
+[09Dec2025 19:47:58.940] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: claco21 joined the game
+[09Dec2025 19:47:58.956] [Server thread/INFO] [fallingtrees | Config/]: Sending common config 'fallingtrees:fallingtrees_common' to claco21
+[09Dec2025 19:47:58.969] [Server thread/INFO] [Jade/]: Syncing config to claco21 (e1e8ac53-c473-30f8-8dcf-a99b284708a7)
+[09Dec2025 19:47:59.162] [Netty Epoll Server IO #7/INFO] [fallingtrees | Config/]: Received client config 'fallingtrees:fallingtrees_client' from claco21
+[09Dec2025 19:48:46.456] [Worker-Main-12/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[09Dec2025 19:48:46.475] [Worker-Main-12/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:

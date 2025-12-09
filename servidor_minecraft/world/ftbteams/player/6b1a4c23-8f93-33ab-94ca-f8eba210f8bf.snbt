@@ -1,0 +1,17 @@
+{
+	id: "6b1a4c23-8f93-33ab-94ca-f8eba210f8bf"
+	type: "player"
+	player_name: "claco2"
+	ranks: {
+		6b1a4c23-8f93-33ab-94ca-f8eba210f8bf: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "claco2"
+		"ftbteams:description": ""
+		"ftbteams:color": "#597CFF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

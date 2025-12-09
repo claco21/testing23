@@ -1,0 +1,56 @@
+2025-12-09 16:56:33 - RAM usada: 22.6% | Disco (/) usado: 41.5%
+2025-12-09 16:56:33 - No se han encontrado procesos java activos.
+2025-12-09 16:58:43 - RAM usada: 22.8% | Disco (/) usado: 41.5%
+2025-12-09 16:58:43 - No se han encontrado procesos java activos.
+2025-12-09 17:04:29 - RAM usada: 23.3% | Disco (/) usado: 41.5%
+2025-12-09 17:04:29 - No se han encontrado procesos java activos.
+2025-12-09 17:05:23 - RAM usada: 23.3% | Disco (/) usado: 41.5%
+2025-12-09 17:05:23 - No se han encontrado procesos java activos.
+2025-12-09 17:05:53 - RAM usada: 23.2% | Disco (/) usado: 41.5%
+2025-12-09 17:05:53 - No se han encontrado procesos java activos.
+2025-12-09 17:09:39 - RAM usada: 38.7% | Disco (/) usado: 41.5%
+2025-12-09 17:09:39 - Procesos java (PID, RSS_MB, cmdline):
+2025-12-09 17:09:39 -   63307 - 2449.6 MB - /usr/lib/jvm/java-17-openjdk-amd64/bin/java -Xms2G -Xmx10G @/workspaces/testing23/servidor_minecraft/libraries/net/minecraftforge/forge/1.20.1-47.3.7/unix_args.txt nogui
+2025-12-09 17:09:39 -   63306 - 1.6 MB - sh -c -- /usr/lib/jvm/java-17-openjdk-amd64/bin/java -Xms2G -Xmx10G "@/workspaces/testing23/servidor_minecraft/libraries/net/minecraftforge/forge/1.20.1-47.3.7/unix_args.txt" nogui
+2025-12-09 17:10:56 - RAM usada: 39.6% | Disco (/) usado: 41.5%
+2025-12-09 17:10:56 - Procesos java (PID, RSS_MB, cmdline):
+2025-12-09 17:10:56 -   63307 - 2604.8 MB - /usr/lib/jvm/java-17-openjdk-amd64/bin/java -Xms2G -Xmx10G @/workspaces/testing23/servidor_minecraft/libraries/net/minecraftforge/forge/1.20.1-47.3.7/unix_args.txt nogui
+2025-12-09 17:10:56 -   63306 - 1.6 MB - sh -c -- /usr/lib/jvm/java-17-openjdk-amd64/bin/java -Xms2G -Xmx10G "@/workspaces/testing23/servidor_minecraft/libraries/net/minecraftforge/forge/1.20.1-47.3.7/unix_args.txt" nogui
+2025-12-09 17:21:14 - RAM usada: 18.8% | Disco (/) usado: 41.6%
+2025-12-09 17:21:14 - No se han encontrado procesos java activos.
+2025-12-09 17:29:22 - RAM usada: 45.2% | Disco (/) usado: 41.6%
+2025-12-09 17:29:22 - Procesos java (PID, RSS_MB, cmdline):
+2025-12-09 17:29:22 -   5501 - 4291.1 MB - /usr/lib/jvm/java-17-openjdk-amd64/bin/java -Xms2G -Xmx10G @/workspaces/testing23/servidor_minecraft/libraries/net/minecraftforge/forge/1.20.1-47.3.7/unix_args.txt nogui
+2025-12-09 17:29:22 -   5500 - 1.8 MB - sh -c -- /usr/lib/jvm/java-17-openjdk-amd64/bin/java -Xms2G -Xmx10G "@/workspaces/testing23/servidor_minecraft/libraries/net/minecraftforge/forge/1.20.1-47.3.7/unix_args.txt" nogui
+2025-12-09 18:55:36 - RAM usada: 35.6% | Disco (/) usado: 42.7%
+2025-12-09 18:55:36 - Procesos java (PID, RSS_MB, cmdline):
+2025-12-09 18:55:36 -   4827 - 2746.9 MB - /usr/lib/jvm/java-21-openjdk-amd64/bin/java -Xms2G -Xmx10G @/workspaces/testing23/servidor_minecraft/libraries/net/minecraftforge/forge/1.20.1-47.3.7/unix_args.txt nogui
+2025-12-09 18:55:36 -   4825 - 1.8 MB - sh -c -- /usr/lib/jvm/java-21-openjdk-amd64/bin/java -Xms2G -Xmx10G "@/workspaces/testing23/servidor_minecraft/libraries/net/minecraftforge/forge/1.20.1-47.3.7/unix_args.txt" nogui
+2025-12-09 18:58:18 - RAM usada: 39.3% | Disco (/) usado: 42.8%
+2025-12-09 18:58:18 - Procesos java (PID, RSS_MB, cmdline):
+2025-12-09 18:58:18 -   4827 - 3326.5 MB - /usr/lib/jvm/java-21-openjdk-amd64/bin/java -Xms2G -Xmx10G @/workspaces/testing23/servidor_minecraft/libraries/net/minecraftforge/forge/1.20.1-47.3.7/unix_args.txt nogui
+2025-12-09 18:58:18 -   4825 - 1.8 MB - sh -c -- /usr/lib/jvm/java-21-openjdk-amd64/bin/java -Xms2G -Xmx10G "@/workspaces/testing23/servidor_minecraft/libraries/net/minecraftforge/forge/1.20.1-47.3.7/unix_args.txt" nogui
+2025-12-09 18:59:40 - RAM usada: 42.8% | Disco (/) usado: 42.8%
+2025-12-09 18:59:40 - Procesos java (PID, RSS_MB, cmdline):
+2025-12-09 18:59:40 -   4827 - 3871.4 MB - /usr/lib/jvm/java-21-openjdk-amd64/bin/java -Xms2G -Xmx10G @/workspaces/testing23/servidor_minecraft/libraries/net/minecraftforge/forge/1.20.1-47.3.7/unix_args.txt nogui
+2025-12-09 18:59:40 -   4825 - 1.8 MB - sh -c -- /usr/lib/jvm/java-21-openjdk-amd64/bin/java -Xms2G -Xmx10G "@/workspaces/testing23/servidor_minecraft/libraries/net/minecraftforge/forge/1.20.1-47.3.7/unix_args.txt" nogui
+2025-12-09 19:00:52 - RAM usada: 43.2% | Disco (/) usado: 42.9%
+2025-12-09 19:00:52 - Procesos java (PID, RSS_MB, cmdline):
+2025-12-09 19:00:52 -   4827 - 3929.0 MB - /usr/lib/jvm/java-21-openjdk-amd64/bin/java -Xms2G -Xmx10G @/workspaces/testing23/servidor_minecraft/libraries/net/minecraftforge/forge/1.20.1-47.3.7/unix_args.txt nogui
+2025-12-09 19:00:52 -   4825 - 1.8 MB - sh -c -- /usr/lib/jvm/java-21-openjdk-amd64/bin/java -Xms2G -Xmx10G "@/workspaces/testing23/servidor_minecraft/libraries/net/minecraftforge/forge/1.20.1-47.3.7/unix_args.txt" nogui
+2025-12-09 19:04:09 - RAM usada: 44.0% | Disco (/) usado: 43.3%
+2025-12-09 19:04:09 - Procesos java (PID, RSS_MB, cmdline):
+2025-12-09 19:04:09 -   4827 - 4050.6 MB - /usr/lib/jvm/java-21-openjdk-amd64/bin/java -Xms2G -Xmx10G @/workspaces/testing23/servidor_minecraft/libraries/net/minecraftforge/forge/1.20.1-47.3.7/unix_args.txt nogui
+2025-12-09 19:04:09 -   4825 - 1.8 MB - sh -c -- /usr/lib/jvm/java-21-openjdk-amd64/bin/java -Xms2G -Xmx10G "@/workspaces/testing23/servidor_minecraft/libraries/net/minecraftforge/forge/1.20.1-47.3.7/unix_args.txt" nogui
+2025-12-09 19:13:28 - RAM usada: 44.2% | Disco (/) usado: 43.3%
+2025-12-09 19:13:28 - Procesos java (PID, RSS_MB, cmdline):
+2025-12-09 19:13:28 -   4827 - 4084.0 MB - /usr/lib/jvm/java-21-openjdk-amd64/bin/java -Xms2G -Xmx10G @/workspaces/testing23/servidor_minecraft/libraries/net/minecraftforge/forge/1.20.1-47.3.7/unix_args.txt nogui
+2025-12-09 19:13:28 -   4825 - 1.8 MB - sh -c -- /usr/lib/jvm/java-21-openjdk-amd64/bin/java -Xms2G -Xmx10G "@/workspaces/testing23/servidor_minecraft/libraries/net/minecraftforge/forge/1.20.1-47.3.7/unix_args.txt" nogui
+2025-12-09 19:20:57 - RAM usada: 46.7% | Disco (/) usado: 43.9%
+2025-12-09 19:20:57 - Procesos java (PID, RSS_MB, cmdline):
+2025-12-09 19:20:57 -   4827 - 4415.4 MB - /usr/lib/jvm/java-21-openjdk-amd64/bin/java -Xms2G -Xmx10G @/workspaces/testing23/servidor_minecraft/libraries/net/minecraftforge/forge/1.20.1-47.3.7/unix_args.txt nogui
+2025-12-09 19:20:57 -   4825 - 1.8 MB - sh -c -- /usr/lib/jvm/java-21-openjdk-amd64/bin/java -Xms2G -Xmx10G "@/workspaces/testing23/servidor_minecraft/libraries/net/minecraftforge/forge/1.20.1-47.3.7/unix_args.txt" nogui
+2025-12-09 19:28:59 - RAM usada: 47.1% | Disco (/) usado: 44.6%
+2025-12-09 19:28:59 - Procesos java (PID, RSS_MB, cmdline):
+2025-12-09 19:28:59 -   4827 - 4464.5 MB - /usr/lib/jvm/java-21-openjdk-amd64/bin/java -Xms2G -Xmx10G @/workspaces/testing23/servidor_minecraft/libraries/net/minecraftforge/forge/1.20.1-47.3.7/unix_args.txt nogui
+2025-12-09 19:28:59 -   4825 - 1.8 MB - sh -c -- /usr/lib/jvm/java-21-openjdk-amd64/bin/java -Xms2G -Xmx10G "@/workspaces/testing23/servidor_minecraft/libraries/net/minecraftforge/forge/1.20.1-47.3.7/unix_args.txt" nogui

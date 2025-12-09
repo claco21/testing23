@@ -1,0 +1,12 @@
+{
+	version: 1
+	uuid: "c5465e06ee4636b7ba9b58b78fd785a7"
+	name: "claco3#c5465e06"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	player_data: { }
+}

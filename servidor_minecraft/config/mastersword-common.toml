@@ -1,0 +1,177 @@
+
+["Master Sword Configs - Enable/Disable Songs"]
+	#Enable or disable the Song of Storms.
+	enable_song_of_storms = true
+	#Enable or disable the Sun's Song.
+	enable_suns_song = true
+
+["Master Sword Configs - Sword Damage Bonus"]
+	#Damage bonus for the Goddess Sword.
+	#Value must be a decimal (e.g., 2.5).
+	#Total sword damage = 2 + this value (e.g., 2 + 2.5 = 4.5).
+	goddess_sword_damage = 2.5
+	#Damage bonus for the Goddess Longsword.
+	goddess_longsword_damage = 3.5
+	#Damage bonus for the White Goddess Sword.
+	white_goddess_sword_damage = 4.5
+	#Damage bonus for the Master Sword.
+	master_sword_damage = 5.5
+	#Damage bonus for the Tempered Master Sword.
+	tempered_master_sword_damage = 6.5
+	#Damage bonus for the Golden Master Sword.
+	golden_master_sword_damage = 7.5
+	#Damage bonus for the Fierce Deity Sword.
+	fierce_deity_sword_damage = 9.0
+	#Damage bonus for the True Master Sword.
+	true_master_sword_damage = 8.5
+	#Damage bonus for the Magic Hammer.
+	magic_hammer_damage = 6.0
+
+["Master Sword Configs - Sword Durability"]
+	#Durability for the Goddess Sword.
+	#Must be a whole integer (e.g., 1300).
+	goddess_sword_durability = 1300
+	#Durability for the Goddess Longsword.
+	goddess_longsword_durability = 1500
+	#Durability for the White Goddess Sword.
+	white_goddess_sword_durability = 1700
+	#Durability for the Master Sword.
+	master_sword_durability = 1900
+	#Durability for the Tempered Master Sword.
+	tempered_master_sword_durability = 2200
+	#Durability for the Golden Master Sword.
+	golden_master_sword_durability = 2500
+	#Durability for the Fierce Deity Sword.
+	fierce_deity_sword_durability = 3000
+	#Durability for the True Master Sword.
+	true_master_sword_durability = 3000
+	#Durability for the Magic Hammer.
+	magic_hammer_durability = 2000
+
+["Master Sword Configs - Sword Spin Ability Damage"]
+	#**THE DAMAGE VALUES MUST CONTAIN A DECIMAL PLACE. (e.g. 1.0)**
+	#Defines the spin attack damage for Master Sword
+	spin_damage_master_sword = 10.0
+	#Defines the spin attack damage for Tempered Master Sword
+	spin_damage_tempered_master_sword = 14.0
+	#Defines the spin attack damage for Golden Master Sword
+	spin_damage_golden_master_sword = 18.0
+	#Defines the spin attack damage for True Master Sword
+	spin_damage_true_master_sword = 19.0
+	#Defines the spin attack damage for Fierce Deity Sword
+	spin_damage_fierce_deity_sword = 20.0
+
+["Master Sword Configs - Sword Beam Damage"]
+	#**THE DAMAGE VALUES MUST CONTAIN A DECIMAL PLACE. (e.g. 1.0)**
+	#Defines the base beam damage
+	base_beam_damage = 5.0
+	#Defines the Ciela enhanced beam damage
+	enhanced_beam_damage = 8.0
+
+["Master Sword Configs - Magic Staff Configs"]
+	#**THE DAMAGE VALUES MUST CONTAIN A DECIMAL PLACE. (e.g. 1.0)**
+	#Defines the Fire Rod's magic damage
+	fire_rod_damage = 20.0
+	#Defines the durability for Fire Rod
+	fire_rod_durability = 50
+	#Defines the explosion modifier for Fire Rod
+	fire_rod_explosion = 1.0
+	#Defines if the Fire Rod explosion can cause fires
+	fire_rod_cause_fires = true
+	#Defines the Ice Rod's magic damage
+	ice_rod_damage = 2.0
+	#Defines the durability for Ice Rod
+	ice_rod_durability = 50
+	#Defines if the Ice Rod creates snow on hit blocks
+	ice_rod_leave_snow = true
+
+["Master Sword Configs - Magic Meter Configs"]
+	#Defines how to render the Magic Meter (default = false)
+	#true = ALWAYS, false = ONLY WHEN NEEDED
+	always_show_magic_meter = false
+	#Defines the X position to render the Magic Meter
+	magic_meter_position_x = 420
+	#Defines the Y position to render the Magic Meter
+	magic_meter_position_y = 3
+
+["Master Sword Configs - Goron Merchant Trade Costs"]
+	#Defines the Emerald trade cost for 1 Green Rupee
+	trade_emerald_to_rupee = 9
+	#Defines the rupee type for the Rupee to Bombchu trade
+	trade_rupee_to_bombchu_type = "green_rupee"
+	#Defines the specified Rupee trade cost for 1 Bombchu
+	trade_rupee_to_bombchu = 3
+	#Defines the rupee type for the Rupee to Green Potion trade
+	trade_rupee_to_green_potion_type = "blue_rupee"
+	#Defines the specified Rupee trade cost for 1 Green Potion
+	trade_rupee_to_green_potion = 2
+	#Defines the rupee type for the Rupee to Lon Lon Milk trade
+	trade_lon_lon_milk_to_rupee_type = "green_rupee"
+	#Defines the specified Rupee trade result for 1 Lon Lon Milk
+	trade_lon_lon_milk_to_rupee = 4
+	#Defines the rupee type for the Rupee to Boomerang trade
+	trade_rupee_to_boomerang_type = "blue_rupee"
+	#Defines the specified Rupee trade cost for 1 Boomerang
+	trade_rupee_to_boomerang = 3
+	#Defines the rupee type for the Rupee to Magic Hammer trade
+	trade_rupee_to_magic_hammer_type = "red_rupee"
+	#Defines the specified Rupee trade cost for 1 Magic Hammer
+	trade_rupee_to_magic_hammer = 1
+	#Defines the rupee type for the Rupee to Hookshot trade
+	trade_rupee_to_hookshot_type = "purple_rupee"
+	#Defines the specified Rupee trade cost for 1 Hookshot
+	trade_rupee_to_hookshot = 1
+	#Defines the rupee type for the Rupee to Fairy Arrows trade
+	trade_rupee_to_fairy_arrow_type = "blue_rupee"
+	#Defines the specified Rupee trade cost for 15 Fairy Arrows
+	trade_rupee_to_fairy_arrow = 2
+	#Defines the rupee type for the Rupee to Dark Hylian Shield trade
+	trade_rupee_to_dark_hylian_shield_type = "gold_rupee"
+	#Defines the specified Rupee trade cost for 1 Dark Hylian Shield
+	trade_rupee_to_dark_hylian_shield = 2
+	#Defines the rupee type for the Rupee to Temple of Time Music disc trade
+	trade_rupee_to_temple_of_time_music_disc_type = "red_rupee"
+	#Defines the specified Rupee trade cost for 1 Temple of Time Music disc
+	trade_rupee_to_temple_of_time_music_disc = 1
+
+["Master Sword Configs - Rupee Drop Chances"]
+	#Defines the drop chance percentage for Green Rupee when a monster-type mob is slain by a player (10 = 10%)
+	green_rupee_drop_chance = 10
+	#Defines the drop chance percentage for Blue Rupee
+	blue_rupee_drop_chance = 1
+	#Defines the drop chance percentage for Red Rupee
+	red_rupee_drop_chance = 0
+	#Defines the drop chance percentage for Purple Rupee
+	purple_rupee_drop_chance = 0
+	#Defines the drop chance percentage for Silver Rupee
+	silver_rupee_drop_chance = 0
+	#Defines the drop chance percentage for Gold Rupee
+	gold_rupee_drop_chance = 0
+
+["Master Sword Configs - Sword Beam Cooldowns"]
+	#Defines the beam cooldown in ticks for the Master Sword
+	master_sword_beam_cooldown = 148
+	#Defines the beam cooldown in ticks for the Tempered Master Sword
+	tempered_master_sword_beam_cooldown = 148
+	#Defines the beam cooldown in ticks for the Golden Master Sword
+	golden_master_sword_beam_cooldown = 140
+	#Defines the beam cooldown in ticks for the True Master Sword
+	true_master_sword_beam_cooldown = 140
+	#Defines the beam cooldown in ticks for the Fierce Deity Sword
+	fierce_deity_sword_beam_cooldown = 176
+
+["Master Sword Configs - Fierce Deity Sword Magic Cost"]
+	#Defines the magic cost for the Fierce Deity Sword beam attack
+	fierce_deity_sword_magic_cost = 5
+
+["Master Sword Configs - Enable/Disable Spin Attack cutting grass"]
+	#Defines if the Spin Attack can break plants/harvest crops (default = true)
+	spin_attack_break_plants = true
+
+["Master Sword Configs - Friendly Fire Blacklist"]
+	#List of entity IDs to prevent friendly fire (e.g., 'minecraft:villager').
+	#Note: Certain entities (Armor Stand, Pet Fairies, Healing Fairies,
+	#Bombchus, Epona, Gorons) are always blacklisted and
+	#cannot be removed from this blacklist.
+	friendly_fire_blacklist = ["minecraft:villager", "mastersword:lon_lon_cow"]
+

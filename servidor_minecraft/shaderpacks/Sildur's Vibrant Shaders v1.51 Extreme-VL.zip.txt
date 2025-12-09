@@ -1,0 +1,4 @@
+#Thu Jul 24 13:10:48 BRT 2025
+Godrays_Density=9.2
+Lens_Flares=true
+Godrays=true

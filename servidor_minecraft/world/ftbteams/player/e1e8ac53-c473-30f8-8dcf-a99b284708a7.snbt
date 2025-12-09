@@ -1,0 +1,17 @@
+{
+	id: "e1e8ac53-c473-30f8-8dcf-a99b284708a7"
+	type: "player"
+	player_name: "claco21"
+	ranks: {
+		e1e8ac53-c473-30f8-8dcf-a99b284708a7: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "claco21"
+		"ftbteams:description": ""
+		"ftbteams:color": "#59FF64"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

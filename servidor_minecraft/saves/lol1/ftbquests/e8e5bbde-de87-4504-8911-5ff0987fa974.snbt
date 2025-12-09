@@ -1,0 +1,12 @@
+{
+	version: 1
+	uuid: "e8e5bbdede87450489115ff0987fa974"
+	name: "claco21#e8e5bbde"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	player_data: { }
+}

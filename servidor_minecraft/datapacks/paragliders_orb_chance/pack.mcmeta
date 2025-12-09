@@ -1,0 +1,10 @@
+{
+    "pack": {
+        "name":"Spirit Ors Drop Rate",
+        "id":"spiritorbchance",
+        "pack_format":6,
+        "authors":"ClockwerkKaiser",
+        "version":"0.1.0",
+        "description":"Paragliders Spirit Orb Drop Chance Customization."
+    }
+}
