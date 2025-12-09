@@ -1,37 +1,31 @@
-name: Ejecutar Script msx.py
+name: Ejecutar msx.py e Iniciar Servidor (Opción 1)
 
-# Permite ejecutar este workflow manualmente desde la interfaz de GitHub (web y móvil)
 on:
   workflow_dispatch:
-    inputs:
-      parametro_opcional:
-        description: 'Parámetro a pasar al script msx.py (Opcional)'
-        required: false
-        default: 'sin_parametro'
 
 jobs:
-  ejecutar_python:
-    # Asegúrate de que tu codespace o runner tenga Python instalado.
+  ejecutar_python_opcion_1:
     runs-on: ubuntu-latest
     
     steps:
       - name: Checkout del código
-        # Descarga tu código al runner
         uses: actions/checkout@v4
       
       - name: Configurar Python
-        # Instala la versión de Python que necesite tu script (por ejemplo, Python 3.10)
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
-      - name: Ejecutar el script msx.py
-        # Comando para ejecutar tu script de Python
+      # NUEVO PASO: Instalar las dependencias de Python
+      - name: Instalar dependencias
+        # El comando 'pip install -r requirements.txt' instala todas
+        # las librerías listadas en el archivo requirements.txt.
+        run: pip install -r requirements.txt
+
+      - name: Ejecutar msx.py y pasar la opción 1
+        # Simulamos la entrada '1' para iniciar el servidor
         run: |
-          echo "Iniciando la ejecución de msx.py..."
+          echo "Simulando la entrada '1' para iniciar el servidor..."
+          echo 1 | python msx.py
           
-          # Aquí se ejecuta el script msx.py, 
-          # pasándole el parámetro opcional que ingreses en el botón.
-          python msx.py ${{ github.event.inputs.parametro_opcional }}
-          
-          echo "msx.py finalizado."
+          echo "Proceso de msx.py completado."
