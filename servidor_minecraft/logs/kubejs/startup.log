@@ -1,0 +1,11 @@
+[16:16:11] [INIT] KubeJS 1902.6.2-build.73; MC 1902 forge
+[16:16:11] [INIT] Loaded plugins:
+[16:16:11] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[16:16:11] [INIT] - dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration
+[16:16:11] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[16:16:11] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin
+[16:16:11] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[16:16:11] [INFO] Loaded script startup_scripts:carpgitemmod.js in 0.135 s
+[16:16:11] [INFO] example.js#5: Hello, World! (Loaded startup scripts)
+[16:16:11] [INFO] Loaded script startup_scripts:example.js in 0.002 s
+[16:16:11] [INFO] Loaded 2/2 KubeJS startup scripts in 0.428 s
